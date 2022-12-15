@@ -534,6 +534,8 @@
             </section>
           </div>
 
+        
+
           <!-- End skills Tab Data -->
           <!-- ----------------------------------------------------------------------------------- -->
           <!-- Projects Tab Data -->
@@ -548,15 +550,36 @@
                   </div>
                   <p class="project-title">Loja Virtual Hcode</p>
                 </div>
+
+                
                 
                 <div class="project-container">
                   <div class="project-img-container"
                     onclick="document.getElementById('modal-wrapper-fortunator').style.display='block'">
                     <img class="img-corona" src="./images/APIS.jpg" alt="project image" width="120px" height="120px">
                   </div>
-                  <p class="project-title">API REST FULL</p>
+                  <p class="project-title">API REST FULL JAVA + REACT</p>
+                </div>
+
+                <div class="project-container">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper-laravel').style.display='block'">
+                    <img class="img-corona" src="./images/vue_laravel.webp" alt="project image" width="120px" height="120px">
+                  </div>
+                  <p class="project-title">API REST LARAVEL + VUE</p>
                 </div>
              
+
+
+
+
+
+
+
+
+
+
+
 
               <div id="modal-wrapper-youtube-oasys" class="modal">
                 <form class="modal-content animate">
@@ -564,17 +587,14 @@
                     <span onclick="document.getElementById('modal-wrapper-youtube-oasys').style.display='none'" class="close"
                       title="Close PopUp">&times;</span>
                     <img src="./images/Hcode.png" alt="project" class="avatar">
-                    <h1 class="project_details" style="text-align:center">Details</h1>
+                    <h1 class="project_details" style="text-align:center">Detalhes</h1>
                   </div>
-                  <!--
-                  <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description"
-                      readonly></textarea> 
-                    <input type="url" placeholder="teste" readonly>
-                    <input type="text" placeholder="Languages used" readonly>
-                    --> 
+                
+                  <div class="container">             
                     <p class="project_description">🛒 Loja Virtual Completa, com Carrinho abandonado, integração com metodos de pagamentos e login/Registrar</p>
+
+                    <p class="project_description">Github do Projeto: https://github.com/leonardovilela100/ecomerce </p>
+                 
                     
                   </div>
                   <!--
@@ -591,49 +611,80 @@
                     <span onclick="document.getElementById('modal-wrapper-fortunator').style.display='none'" class="close"
                       title="Close PopUp">&times;</span>
                     <img src="./images/APIS.jpg" alt="project" class="avatar">
-                    <h1 class="project_details" style="text-align:center">Details</h1>
-                        <!--
+                    <h1 class="project_details" style="text-align:center">Detalhes</h1>
+                        
                   </div>
             
                   <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description"
-                      readonly></textarea> 
-                    <input type="url" placeholder="teste" readonly>
-                    <input type="text" placeholder="Languages used" readonly>
-                 -->
-                    <p class="project_description">🌐 Criação de API REST-FULL utilizando todos os principios REST.  </p>
-                    
+                    <textarea class="project_description" rows="10" placeholder="Project Description"
+                      readonly>
+Api Criada com as melhores práticas de programação utilizando o java 18 com Spring Boot
+ API totalmente dockerizada e realizando uma integração continua entre (Ambiente de Dev / GitHub / GitHub Actions-Builds docker e imagens / Docker Hub )
+Integração da API na Amazon AWS e integração continua com GitHub Actions
+Utilizamos Versionamento de API
+Swagger para documentação de API
+Foi utilizado o gerenciador de pacotes pom.xml (MAVEN)
+Banco de dados MySQL
+Spring Security / JWT para autenticação de usuário
+Suporte para XML E YAML (Content Negotiation) - jackson-XML e jackson-YAML
+Flyway
+Hateoas
+Dozermapper
+Hibernate
+
+ CLIENT REACT
+ Utilizando Axios
+ Estou realizando melhorias no projeto para cada vês mais ser um projeto macom integrações de fornecedores e clientes</textarea> 
+                 
+                    <p class="project_description">🌐 Projeto de Server API REST utilizando Java com Spring Boot e Client utilizando JavaScipt com biblioteca ReactJS.  </p>
+
+                    <p class="project_description">🎥 Vídeo do Projeto: https://www.youtube.com/watch?v=vuICoalNp1U </p>
+
+                    <textarea class="project_description" rows="2" placeholder="Project Description"
+                    readonly>https://github.com/leonardovilela100/rest-with-spring-boot-and-java-erudio</textarea>
+
                   </div>
-                  <!--
-                  <a class="project_submit" href="https://github.com/0xkalvin/fortunator" target="_blank">
+             
+                  <a class="project_submit" href="https://www.youtube.com/watch?v=vuICoalNp1U" target="_blank">
                     Access
                   </a>
-                  -->
+              
                 </form>
               </div>
 
-              <div id="modal-wrapper" class="modal">
+              <div id="modal-wrapper-laravel" class="modal">
                 <form class="modal-content animate">
                   <div class="imgcontainer">
-                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
+                    <span onclick="document.getElementById('modal-wrapper-laravel').style.display='none'" class="close"
                       title="Close PopUp">&times;</span>
-                    <img src="images/trackDonationLogo.png" alt="project" class="avatar">
-                    <h1 class="project_details" style="text-align:center">Details</h1>
+                    <img src="images/vue_laravel.webp" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Detalhes</h1>
                   </div>
                   <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description"
-                      readonly></textarea>
-                    <input type="url" placeholder="teste" readonly>
-                    <input type="text" placeholder="Languages used" readonly> 
-                    <p class="project_description">🌎 Projeto desenvolvido de forma voluntária para a Organização <a href="https://www.iresoficial.org/">IRES</a> para o gerenciamento de doadores e receptores de cestas básicas. <br><br>Tendo também como função, dar um feedback para o doador de qual foi o destino de sua doação com o nome da família e foto (se autorizado pelo receptor).</p>
+                   
+                    <p class="project_description">🌐 
+                      Back-End
+                      Essa API Rest foi desenvolvida usando Laravel, foi criada as Rotas, Migrations e Models usando o Artisan make: . Foi utilizado o banco de dados MySQL.
+
+                      Front-End
+                    Esse projeto tem como funcionalidade consumir uma api laravel já criada e aqui ser o Front-End da aplicação
+                    </p>
+
+                    <p class="project_description">Github da parte do Back-End</p>
+                    <textarea class="project_description" rows="2" placeholder="Project Description"
+                    readonly>https://github.com/leonardovilela100/api_rest</textarea>
+
+                    <p class="project_description">Github da parte do Front-End</p>
+                    <textarea class="project_description" rows="2" placeholder="Project Description"
+                    readonly>https://github.com/leonardovilela100/front_consumo_api_vueJS</textarea>
                   </div>
-                  <a class="project_submit" href="https://github.com/KaiqueJuvencio/trackDonation" target="_blank">
+                  <a class="project_submit" href="https://www.youtube.com/watch?v=U6KM_iu9G3o" target="_blank">
                     Access
                   </a>
                 </form>
               </div>
+
+              
 
               <div id="modal-wrapper-covid" class="modal">
                 <form class="modal-content animate">
